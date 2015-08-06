@@ -12,7 +12,7 @@ Package.onUse(function (api) {
   /* Export Accounts (etc) to packages using this one. */
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('orcid', ['client', 'server']);
+  api.use('mleiber:orcid', ['client', 'server']);
 
   api.addFiles('orcid_login_button.css', 'client');
 
