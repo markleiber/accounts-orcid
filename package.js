@@ -7,6 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+  api.versionsFrom('METEOR@0.9.1');
 
   api.use('accounts-base', ['client', 'server']);
   /* Export Accounts (etc) to packages using this one. */
