@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mleiber:accounts-orcid',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Meteor OAuth for ORCID',
   git: 'https://github.com/markleiber/accounts-orcid',
   documentation: 'README.md'
